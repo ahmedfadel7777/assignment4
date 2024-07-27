@@ -1,0 +1,22 @@
+
+.search .shadow i{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px 0 0 10px;
+}
+
+
+.search button{
+    border-radius: 0 10px 10px 0;
+}
+
+.popular-btn{
+    background-color: #1572d31a;
+    color: #0b5ed7;
+    border: 1px solid #1572d31a;
+    padding: 5px 20px;
+}

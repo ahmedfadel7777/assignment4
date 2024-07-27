@@ -1,0 +1,83 @@
+.content{
+    width: 35%;
+}
+
+.home .content .text{
+    margin-left: 20vh;
+    margin-top: 20vh;
+}
+
+
+.search .shadow i{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px 0 0 10px;
+}
+
+
+.search button{
+    border-radius: 0 10px 10px 0;
+}
+
+.popular-btn{
+    background-color: #1572d31a;
+    color: #0b5ed7;
+    border: 1px solid #1572d31a;
+    padding: 5px 20px;
+}
+
+.card-item{
+    border-radius: 10px; 
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);;
+}
+.card-item .info{
+    position: relative;
+}
+.card-item .info::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #d2d2d2;
+    position: absolute;
+    top: 110%;
+}
+.gold{
+    color: #efbf14;
+}
+
+.btn-show-all{
+    width: 200px;
+    color: #6c757d;
+    background-color: #fff;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    padding: 6px 22px;
+    transition: all 0.5s;
+}
+
+.btn-show-all:hover{
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.rentalDeals .popular-btn{
+    padding: 5px 15px;
+}
+
+.rentalDeals li{
+    list-style-type: none;
+}
+
+.testimonial{
+    background-color: #f7fbff;
+    padding: 30px 0;
+}
+
+.testimonial .card img{
+    height: 350px;
+}
+
